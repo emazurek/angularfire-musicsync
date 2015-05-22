@@ -1,0 +1,151 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+.song-container {
+  text-align: center;
+  padding:20px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.section-container {
+  background-color: #FAFAFA;
+  border: 1px dotted #EEE;
+  text-align: left;
+  padding: 20px;
+}
+
+a.active {
+  color:red;
+}
+
+.section-heading {
+  font-size: 4em;
+  padding: .5em;
+  /* border-radius: 50%; */
+  width: .75em;
+  height: .75em;
+  display: inline-block;
+  text-align: center;
+  line-height: .75em;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+.bg-green {
+  background-color: #b4ffb5;
+}
+
+.bg-purple {
+  background-color: #dbb4ff;
+}
+
+.bg-blue {
+  background-color: #b4feff;
+}
+
+.bg-pink {
+  background-color: #ffb4fe;
+}
+
+.bg-yellow {
+  background-color: #feffb4;
+}
+
+
+div.vex-tabdiv {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #554;
+  white-space: pre;
+}
+
+div.vex-tabdiv .editor {
+  background: #dfd;
+  border: 0 solid 0;
+  border-left: 6px solid #afa;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+}
+
+div.vex-tabdiv .editor-error .text {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  color: red;
+  padding: 3px;
+}
+
+div.vex-tabdiv .title {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  color: #554;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    /*max-width: 730px;*/
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

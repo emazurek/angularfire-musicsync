@@ -1,0 +1,36 @@
+
+<div>
+<div>
+  <h3>Profile</h3>
+
+  <form role="form">
+    <p class="form-group">
+      <label>Account ID</label>
+      <br />{{user.uid}}
+    </p>
+
+    <p class="form-group">
+      <label>Name:</label>
+      <input type="text" name="name" ng-model="profile.name" />
+    </p>
+
+    <p class="form-group">
+      <label>Instrument:</label>
+      <select ng-model="profile.instrument">
+      <option value="tenor-saxophone">Tenor Sax</option>
+      <option value="alto-saxophone">Alto Sax</option>
+      <option value="guitar">Jazz Guitar</option>
+      <option value="flute">Jazz Flute</option>
+      <option value="piano">Jazz Piano</option>
+      <option value="drums">Jazz Drums</option>
+      </select>
+  </form>
+      
+  <p>
+    <button role="button" ng-click="logout()">Log Out</button>
+  </p>
+</div>
+
+</div>
+
+<div ng-repeat="message in messages" class="alert alert-{{message.type}}">{{message.text}}</div>

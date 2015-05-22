@@ -1,0 +1,26 @@
+<!-- <ul><li ng-repeat="song in model.songs">
+  <a ng-click="model.current.song = song.title" ng-class="{active: model.current.song == song.title}">{{song.title}}</a>
+  </li>
+</ul> -->
+
+<div ng-repeat="song in model.songs | filter:model.current.song" class="song-container">
+  <p>{{song.title}}</p>
+  <div ng-repeat="section in song.sections | filter:model.current.section" class="section-container">
+    <div class="center"><span class="section-heading bg-blue">{{section.name}}</span></div>
+    <div ng-repeat="part in section.parts | filter:model.myPart">
+      <div ng-repeat="slide in part.slides">
+        <div ng-repeat="instruction in slide.instructions">
+          <div ng-if="instruction.type == 'notes'" vextab>
+            stave notation=true
+            {{instruction.content}}
+          </div>
+          <div ng-if="instruction.type != 'notes'" ng-class="instruction-{{instruction.type}}">
+            {{instruction.content}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="alert alert-danger" ng-show="err">{{err}}</p>

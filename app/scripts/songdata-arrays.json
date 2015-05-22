@@ -1,0 +1,63 @@
+{
+  "songs": [{
+    "title": "chiron",
+    "sections": [{
+      "name": "A",
+      "length": 16,
+      "parts": [{
+        "name": "master",
+        "slides": [{
+          "name": "slide1",
+          "priority": "3",
+          "instructions": [{
+            "type": "text",
+            "content": "play quietly"
+          }, {
+            "type": "notes",
+            "content": "notes :q (5/4.5/5) (7/4.7/5)s(5/4.5/5) ^3^"
+          }]
+        }]
+      }, {
+        "name": "Percussionist",
+        "slides": [{
+          "name": "slide1",
+          "priority": "1",
+          "instructions": [{
+            "type": "text",
+            "content": "play abrasively"
+          }, {
+            "type": "notes",
+            "content": "notes :q 3-3-3-3/4"
+          }]
+        }]
+      }]
+    }, {
+      "name": "B",
+      "length": 16,
+      "parts": []
+    }]
+  }, {
+    "title": "bartholemew",
+    "sections": [{
+      "name": "A",
+      "length": 16,
+      "parts": []
+    }, {
+      "name": "B",
+      "length": 16,
+      "parts": []
+    }]
+  }],
+  "current": {
+    "song": "chiron",
+    "section": "A",
+    "masterControlEnabled": false
+  },
+  "settings": {
+    "nextSection":""
+  },
+  "instrumentMap": {
+    "tenor-saxophone":["master", "lead"],
+    "alto-saxophone":["master", "lead"]
+  }
+}

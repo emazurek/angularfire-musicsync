@@ -1,0 +1,27 @@
+{
+  "songs": {
+    "chiron":
+  {
+    "title": "chiron",
+    "parts": [{
+      "name": "A",
+      "length": 16,
+      "display": []
+    }, {
+      "name": "B",
+      "length": 16,
+      "display": []
+    }]
+  }, "bartholemew": {
+    "title": "bartholemew",
+    "parts": [{
+      "name": "A",
+      "length": 16,
+      "display": []
+    }, {
+      "name": "B",
+      "length": 16,
+      "display": []
+    }]
+  }}
+}
