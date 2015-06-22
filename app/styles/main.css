@@ -10,6 +10,11 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .footer {
@@ -45,35 +50,68 @@ body {
   text-align: center;
   margin: 0 auto;
 }
+
 .song-container {
   text-align: center;
   padding:20px;
   max-width: 600px;
   margin: 20px auto;
+  border: 1px dotted #EEE;
+  position: relative;
+}
+
+.navbar-sections {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.navbar-sections ol {
+  list-style-type: none;
+}
+
+.navbar-sections li {
+  padding: 10px;
+  background-color: #000;
+  color: #FFF;
+  opacity: .8;
+}
+
+.display-nav-section li.active {
+  opacity: 1;
 }
 
 .section-container {
-  background-color: #FAFAFA;
-  border: 1px dotted #EEE;
   text-align: left;
   padding: 20px;
 }
 
-a.active {
-  color:red;
-}
-
 .section-heading {
-  font-size: 4em;
+  font-size: 2em;
   padding: .5em;
   /* border-radius: 50%; */
   width: .75em;
   height: .75em;
   display: inline-block;
-  text-align: center;
+  text-align: left;
   line-height: .75em;
   vertical-align: middle;
-  margin: 0 auto;
+  margin-left: 10px;
+}
+
+.inactive {
+  opacity: .5;
+}
+
+.part .instructions {
+  border-style:solid;
+  border-width:1px 0 1px 20px;
+  border-image:url(http://opbokken.nu/meuk/curly.png) 1 20 stretch;
+  padding-left:0.5em;
+}
+
+a.active {
+  color:red;
 }
 
 .bg-green {

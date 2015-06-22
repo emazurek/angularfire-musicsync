@@ -17,5 +17,6 @@ angular.module('musicsyncApp', [
     'ngTouch',
     'firebase',
     'firebase.ref',
-    'firebase.auth'
+    'firebase.auth',
+    'smoothScroll'
   ]);

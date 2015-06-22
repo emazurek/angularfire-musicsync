@@ -8,6 +8,7 @@
  */
 angular.module('musicsyncApp')
   .controller('LoginCtrl', function ($scope, Auth, $location) {
+
     $scope.oauthLogin = function(provider) {
       $scope.err = null;
       Auth.$authWithOAuthPopup(provider, {rememberMe: true}).then(redirect, showError);
@@ -18,10 +19,8 @@ angular.module('musicsyncApp')
       Auth.$authAnonymously({rememberMe: true}).then(redirect, showError);
     };
 
-    
-
     function redirect() {
-      $location.path('/sync');
+      $location.path('/account');
     }
 
     function showError(err) {

@@ -9,6 +9,7 @@ SMALL
 MEDIUM
 ======
 - Design UI
+- "Loading"
 
 LARGE
 =====

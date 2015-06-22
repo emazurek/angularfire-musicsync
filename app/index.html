@@ -33,10 +33,11 @@
 
             <ul class="nav navbar-nav">
               <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/sync">Sync</a></li>
+              <li ng-show-auth><a ng-href="#/sync">Sync</a></li>
+              <li ng-show-auth><a href="#/create">Create</a></li>
               <li>
-              <a ng-hide-auth="" href="#/login">log in</a>
-              <a ng-show-auth="" href="#/account">account</a>
+              <a ng-hide-auth="" href="#/login">Log in</a>
+              <a ng-show-auth="" href="#/account">Account</a>
             </li>
             </ul>
           </div>
@@ -79,6 +80,8 @@
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/vextab-div/index.js"></script>
+    <script src="bower_components/ngSmoothScroll/angular-smooth-scroll.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -92,6 +95,7 @@
         <script src="scripts/directives/ngHideAuth.js"></script>
         <script src="scripts\controllers\sync.js"></script>
         <script src="scripts\controllers\account.js"></script>
+        <script src="scripts\controllers\create.js"></script>
         <script src="scripts\filters\reverse.js"></script>
         <script src="scripts\routes.js"></script>
         <script src="scripts/directives/vextab-directive.js"></script>

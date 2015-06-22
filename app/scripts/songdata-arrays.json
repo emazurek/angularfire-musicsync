@@ -8,20 +8,18 @@
         "name": "master",
         "slides": [{
           "name": "slide1",
-          "priority": "3",
           "instructions": [{
             "type": "text",
             "content": "play quietly"
           }, {
-            "type": "notes",
-            "content": "notes :q (5/4.5/5) (7/4.7/5)s(5/4.5/5) ^3^"
+            "type": "text",
+            "content": "play staccato"
           }]
         }]
       }, {
         "name": "Percussionist",
         "slides": [{
           "name": "slide1",
-          "priority": "1",
           "instructions": [{
             "type": "text",
             "content": "play abrasively"
@@ -34,7 +32,70 @@
     }, {
       "name": "B",
       "length": 16,
-      "parts": []
+      "parts": [{
+        "name": "master",
+        "slides": [{
+          "name": "slide1",
+          "instructions": [{
+            "type": "text",
+            "content": "Sync up with {{randomPlayer}}"
+          }, {
+            "type": "text",
+            "content": "whole thing builds to a crescendo"
+          }]
+        }]
+      }]
+    },
+    {
+      "name": "A",
+      "length": 16,
+      "parts": [{
+        "name": "master",
+        "slides": [{
+          "name": "slide1",
+          "instructions": [{
+            "type": "text",
+            "content": "All go quiet"
+          }, {
+            "type": "text",
+            "content": "Play set riffs very occasionally"
+          }]
+        }]
+      }]
+    },
+    {
+      "name": "B",
+      "length": 16,
+      "parts": [{
+        "name": "master",
+        "slides": [{
+          "name": "slide1",
+          "instructions": [{
+            "type": "text",
+            "content": "Sync up with {{randomPlayer}}"
+          }, {
+            "type": "text",
+            "content": "whole thing builds to a crescendo"
+          }]
+        }]
+      }]
+    },
+    {
+      "name": "A",
+      "length": 16,
+      "parts": [{
+        "name": "master",
+        "slides": [{
+          "name": "slide1",
+          "instructions": [{
+            "type": "text",
+            "content": "All go quiet"
+          }, {
+            "type": "text",
+            "content": "Play set riffs very occasionally"
+          }]
+        }]
+      }]
     }]
   }, {
     "title": "bartholemew",
@@ -49,9 +110,10 @@
     }]
   }],
   "current": {
-    "song": "chiron",
-    "section": "A",
-    "masterControlEnabled": false
+    "song": "0",
+    "section": "0",
+    "masterControlEnabled": false,
+    "isPlaying": false
   },
   "settings": {
     "nextSection":""

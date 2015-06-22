@@ -2,13 +2,19 @@
   <a ng-click="model.current.song = song.title" ng-class="{active: model.current.song == song.title}">{{song.title}}</a>
   </li>
 </ul> -->
-
-<div ng-repeat="song in model.songs | filter:model.current.song" class="song-container">
+<div ng-repeat="song in model.songs" ng-show="model.current.song == $index" class="song-container" ng-click="callAdvancementHandler()">
+<!-- <div class="navbar-sections">
+<ol>
+<li ng-repeat="section in song.sections" ng-class="{active: model.current.section == section.name}">{{section.name}}</li>
+</ol>
+</div> -->
   <p>{{song.title}}</p>
-  <div ng-repeat="section in song.sections | filter:model.current.section" class="section-container">
-    <div class="center"><span class="section-heading bg-blue">{{section.name}}</span></div>
-    <div ng-repeat="part in section.parts | filter:model.myPart">
-      <div ng-repeat="slide in part.slides">
+  <div  id="{{'section-'+$index}}"ng-repeat="section in song.sections" class="section-container" ng-class="{'inactive' : model.current.section != $index}">
+    <div><span class="section-heading" ng-class="::colorMap(section.name)">{{section.name}}</span>
+
+    </div>
+    <div ng-repeat="part in section.parts | filter:'master'" class="part">
+      <div ng-repeat="slide in part.slides" class="instructions">
         <div ng-repeat="instruction in slide.instructions">
           <div ng-if="instruction.type == 'notes'" vextab>
             stave notation=true

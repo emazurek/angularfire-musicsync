@@ -38,12 +38,23 @@ angular.module('musicsyncApp')
         controller: 'LoginCtrl'
       })
       .when('/master', {
-        templateUrl: 'views/master-login.html',
-        controller: 'LoginCtrl'
+        templateUrl: 'views/login.html',
+        controller: 'LoginCtrl',
+        resolve: {
+          isMaster: true
+        }
+      })
+      .whenAuthenticated('/controls', {
+        templateUrl: 'views/controls.html',
+        controller: 'ControlCtrl'
       })
       .whenAuthenticated('/account', {
         templateUrl: 'views/account.html',
         controller: 'AccountCtrl'
+      })
+      .whenAuthenticated('/create', {
+        templateUrl: 'views/create.html',
+        controller: 'CreateCtrl'
       })
       .otherwise({redirectTo: '/login'});
   }])
