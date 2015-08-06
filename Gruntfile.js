@@ -405,7 +405,7 @@ module.exports = function (grunt) {
       },
       heroku: {
         options: {
-          remote: 'git@heroku.com:enigmatic-waters-3815',
+          remote: 'git@heroku.com:enigmatic-waters-3815.git',
           branch: 'master'
         }
       },
