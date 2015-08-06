@@ -1,0 +1,582 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"uniq",
+				"uniqueSectionIndex"
+			],
+			[
+				"OPPORT",
+				"OPPORTUNITYID"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1131,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 10463,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"last_filter": "iife",
+		"selected_items":
+		[
+			[
+				"iife",
+				"Snippet: Immediately Invoked Function Expression"
+			],
+			[
+				"prettify",
+				"HTMLPrettify"
+			],
+			[
+				"prett",
+				"Preferences: Settings - Default"
+			],
+			[
+				"iif",
+				"Snippet: Anonymous Function"
+			],
+			[
+				"package",
+				"Package Control: Add Repository"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"prettif",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync"
+	],
+	"file_history":
+	[
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-complain-fullstack/server/config/environment/development.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-complain-fullstack/package.json",
+		"/C/Users/erm79/AppData/Roaming/npm/node_modules/generator-angular-fullstack/app/templates/_package.json",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-complain-fullstack/npm-debug.log",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/app/account/login/login.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/server/config/local.env.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/app/app.scss",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/app/main/main.scss",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/app/saved/saved.scss",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/app/saved/saved.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/Gruntfile.js",
+		"/C/Users/erm79/Sites/edmazurek.com/poem/poemv2.html",
+		"/C/Users/erm79/Sites/edmazurek.com/poem/poemv3.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/app/main/main.controller.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/server/api/poem/poem.socket.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/app/saved/saved.controller.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/server/api/poem/poem.model.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/app/main/main.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/server/api/poem/index.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/web-art-template/Gruntfile.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/server/api/poem/poem.controller.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/server/routes.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/components/navbar/navbar.controller.js",
+		"/C/Users/erm79/AppData/Roaming/Sublime Text 3/Packages/User/iife.sublime-snippet",
+		"/C/Users/erm79/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/erm79/Sites/edmazurek.com/poem/poem.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/karma.conf.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/app/main/main.controller.spec.js",
+		"/C/Users/erm79/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/bower.json",
+		"/C/Users/erm79/AppData/Roaming/Sublime Text 3/Packages/Highlight/SublimeHighlight.sublime-settings",
+		"/C/Users/erm79/Documents/oldPathvariable.txt",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/webapp/app/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/simple/index.html",
+		"/C/Users/erm79/Sites/ed-test/app/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/app/app.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/client/app/main/main.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/package.json",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem/package.json",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem/Gruntfile.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem/Procfile",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem/app/scripts/controllers/generator.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem/test/spec/controllers/generator.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem/test/spec/controllers/main.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem/test/karma.conf.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/server/config/environment/production.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/server/config/environment/development.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/server/config/environment/test.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-poem-fullstack/server/config/environment/index.js",
+		"/C/Users/erm79/Documents/Development/Data-Science/Drexel-University/Cohort-Analysis/.gitignore",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/angularfire/config.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/controllers/account.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/routes.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/controllers/login.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/feature-todo.md",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/styles/main.css",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/user-stories.md",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/songdata-arrays.json",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/views/sync.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-firebaseAuth-example/app/views/chat.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-firebaseAuth-example/app/scripts/controllers/chat.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/views/account.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/controllers/sync.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/controllers/create.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/app.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/package.json",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/bower.json",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/views/create.html",
+		"/C/wamp/www/index.php",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/views/main.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/Gruntfile.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/angularfire/auth.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/angularfire/firebase.ref.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/controllers/main.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-firebaseAuth-example/app/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-firebaseAuth-example/app/scripts/routes.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-firebaseAuth-example/app/views/account.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-firebaseAuth-example/app/views/main.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-firebaseAuth-example/app/scripts/angularfire/firebase.ref.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/directives/ngShowAuth.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/directives/vextab-directive.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/directives/notes.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/directives/ngHideAuth.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-firebaseAuth-example/app/scripts/angularfire/config.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-firebaseAuth-example/app/scripts/app.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/controllers/chat.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/bower_components/vextab-div/index.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-musicsync/app/scripts/filters/reverse.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-music-sync/app/scripts/angularfire/config.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-music-sync/app/scripts/routes.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-music-sync/app/scripts/app.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-music-sync/app/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angularfire-music-sync/app/scripts/angularfire/firebase.ref.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-app/app/views/main.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-app/app/scripts/controllers/main.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-app/app/scripts/app.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-app/app/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/angular-app/app/views/about.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/webapp-without-bootstrap/app/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/webapp-without-bootstrap/app/scripts/main-2.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/webapp-without-bootstrap/app/styles/main.scss",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/webapp-without-bootstrap/Gruntfile.js",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/webapp-without-bootstrap/app/scripts/main.js",
+		"/C/Users/erm79/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/Users/erm79/AppData/Local/Temp/fz3temp-2/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/webapp-without-bootstrap/2014/03-06/index3.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/webapp-without-bootstrap/bower.json",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/webapp-without-bootstrap/2014/03-06/index2.html",
+		"/C/wamp/www/page-a-day/2014/03-05/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/webapp-without-bootstrap/2014/03-06/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/yeoman/webapp-without-bootstrap/dist/.htaccess",
+		"/C/Users/erm79/Documents/Development/Data-Science/Drexel-University/Cohort-Analysis/sql/dataset-4a-full-enrollment.sql",
+		"/C/Users/erm79/Sites/edmazurek.com/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/archive/application/views/includes/header.php",
+		"/C/Users/erm79/Sites/edmazurek.com/css/style.css",
+		"/C/Users/erm79/Sites/edmazurek.com/app/index.html",
+		"/C/Users/erm79/Sites/edmazurek.com/app/scripts/app.js",
+		"/C/Users/erm79/Sites/edmazurek.com/app/scripts/controllers/about.js",
+		"/C/Users/erm79/Sites/edmazurek.com/app/scripts/controllers/main.js",
+		"/C/Users/erm79/Sites/edmazurek.com/app/views/about.html",
+		"/C/Users/erm79/Sites/edmazurek.com/app/views/main.html",
+		"/C/Users/erm79/Sites/edmazurek.com/.htaccess",
+		"/C/Users/erm79/Sites/edmazurek.com/style.css",
+		"/C/Users/erm79/Sites/edmazurek.com/archive/index.php",
+		"/C/Users/erm79/Downloads/Ftp emazurek@edmazurek.com.xml",
+		"/C/Users/erm79/Documents/Development/Data-Science/Drexel-University/Cohort-Analysis/readme.md"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sass",
+			"next",
+			"karma",
+			"'",
+			"wiredep",
+			"inject",
+			"yeoman.client",
+			"wiredep",
+			"client/app",
+			"client",
+			"getNextIndex",
+			">\n",
+			"’",
+			"\".*?\"",
+			"<option .*?>",
+			"• ",
+			"vexflow.com",
+			"assets/sax/",
+			"load-grunt-",
+			"/community",
+			"community",
+			"chs",
+			"RewriteRule ^/online-degrees/information-sciences-degrees/landingpages/national-security-group-201410.aspx.*$ /landingpages/Group-national-security/index.aspx \nRewriteRule ^/online-degrees/public-health-degrees/landingpages/public-health-group-201412.aspx.*$ /landingpages/Group-public-health/index.aspx ",
+			"landingpages",
+			"\\n",
+			"#",
+			"/DrexelPro_2_0/PartnerTemplate.aspx?partnerid=",
+			"\\[.*",
+			"partnerid",
+			"[nc,n]",
+			"partnerid",
+			"[nc,n]",
+			"partnerid",
+			"^/ce",
+			"nursesweek",
+			"business development",
+			"careers",
+			"fid=",
+			"/acrp",
+			"general",
+			"rewrite",
+			"landing pag",
+			"/ach",
+			"gotowebinar",
+			"^/enroll",
+			"/enroll",
+			"partnerid",
+			"RewriteRule",
+			"partnerid",
+			"menu_ID=",
+			"gotoweb",
+			"webinar",
+			"/rehab",
+			"timetrade",
+			"fid=",
+			"http://.*",
+			"/landingpages/",
+			"/construction",
+			"3ps",
+			"/computing",
+			"607",
+			"drexelpro_2_0 red",
+			"isapi",
+			"/legal",
+			"landingpages",
+			"redirects",
+			"isapi",
+			"landingpages",
+			"benesys",
+			"partnerid",
+			"partnerid'",
+			"partnerid",
+			"/legal",
+			"laststeps",
+			"/miguel",
+			"fid=",
+			"/am",
+			"/amy",
+			"amy",
+			"fid=",
+			"gotowebinar",
+			"online-degrees/([^/]*)/([^/]*)/([^/]*).aspx",
+			"online-degrees/([^/]*)/([^/]*)/",
+			"online-degrees/([^/]*)/([^/]*)",
+			"fid=",
+			"onlinestudent",
+			"/landingpages/",
+			"landing pages",
+			"gotowebinar",
+			"fid=",
+			"partnerid",
+			"general redirects",
+			"/CR",
+			"clinical",
+			"partnerid",
+			"fid=",
+			"landingpages/",
+			"?fid=",
+			"partnerid=",
+			"/cert-its",
+			"^/dow",
+			"partnerid=",
+			"/online-degrees.*/index.aspx",
+			"/drexelv3",
+			"\\n\\n",
+			"\\n",
+			"#",
+			"RewriteRule \\^.online-degrees.*index.*Drexelv3/templates/program3.aspx",
+			"RewriteRule \\^.online-degrees.*Drexelv3",
+			"landingpages",
+			"gotowebinar",
+			"fid=",
+			"rewriterule \\^",
+			"/drexelv3/.*",
+			"/drexelv3",
+			"#",
+			"/index.aspx.*program3.aspx",
+			"program3.aspx",
+			"fid=",
+			"militarynew",
+			"rsvp",
+			"gotowebinar",
+			"gotowebianr",
+			"gid=",
+			"bs-prst",
+			"mastertable",
+			"/veteran",
+			"partnerid="
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\'",
+			"'",
+			"",
+			"/partnerships/partner/?partnerid=",
+			"student",
+			"stu",
+			"",
+			"'",
+			"",
+			"magnet2014",
+			"",
+			"http://www.drexel.com/",
+			"",
+			"#",
+			"id=14888&id32=14889&",
+			"/templates/transparentMenu.aspx?id=14888&id32=14889",
+			"application.aspx",
+			"/templates/application.aspx",
+			"/templates/transparentMenu.aspx",
+			"",
+			"jse46@drexel.edu",
+			"/Drexelv3/templates/headandfooteronly1.aspx?id=14888&id32=14889&",
+			"/application.aspx",
+			"/templates/application.aspx",
+			"/templates/general2.aspx?id=14888&id32=14889&",
+			"/templates/general2.aspx",
+			"application.aspx",
+			"/templates/application.aspx",
+			"/DrexelPro_2_0/PartnerTemplate.aspx?",
+			"/partner?partnerid",
+			" /partnerships",
+			" /DrexelPro_2_0",
+			"/partnerships",
+			"",
+			"<li>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								808,
+								808
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								723,
+								723
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "angularfire-musicsync.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
