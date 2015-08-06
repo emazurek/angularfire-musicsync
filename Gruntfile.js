@@ -10,7 +10,10 @@
 module.exports = function (grunt) {
 
   // Load grunt tasks automatically
-  require('load-grunt-tasks')(grunt);
+  require('jit-grunt')(grunt, {
+    useminPrepare: 'grunt-usemin',
+    cdnify: 'grunt-google-cdn'
+  });
 
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
@@ -18,7 +21,7 @@ module.exports = function (grunt) {
   // Configurable paths for the application
   var appConfig = {
     app: require('./bower.json').appPath || 'app',
-    dist: 'dist'
+    dist: 'dist/public'
   };
 
   // Define the configuration for all the tasks
