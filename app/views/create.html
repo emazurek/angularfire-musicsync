@@ -1,4 +1,27 @@
+<div class="section create">
 <form>
-  <input name="title" id="title" ng-model="newSong.title" />
-  <button type="submit" ng-click="addSong(newSong);newSong = null;">send</button>
-  </form>
+  <input name="title" id="title" ng-model="newSong.title" placeholder="song title" /><br/>
+  <ul>
+  <li ng-repeat="section in newSong.sections">
+    <input ng-model="section.name" placeholder="section name"/><br/>
+    <input ng-model="section.length" placeholder="section length"/><br/>
+    <ul>
+    <li ng-repeat="part in section.parts">
+      <input ng-model="part.name" placeholder="part name"/><br/>
+      <ul>
+        <li ng-repeat="instruction in part.instructions">
+          <input ng-model="instruction.name" placeholder="instruction name"/><br/>
+          <input ng-model="instruction.content" placeholder="instruction content"/><br/>
+          <input ng-model="instruction.type" placeholder=" instruction type"/><br/>
+        </li>
+      </ul>
+      <button ng-click="addNode('instruction', $parent.$index, $index);">add instruction</button><br/>
+      </li>
+    </ul>
+    <button ng-click="addNode('part', $index);">add a part</button><br/>
+  </li>
+  </ul>
+  <button ng-click="addNode('section');">add section</button><br/>
+  <button type="submit" ng-click="addSong();">add song</button>
+</form>
+</div>

@@ -110,6 +110,10 @@ body {
   padding-left:0.5em;
 }
 
+.section.create ul {
+  margin-left: 3em;
+}
+
 a.active {
   color:red;
 }
